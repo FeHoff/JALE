@@ -116,7 +116,7 @@ def main_effect(
         # take all peaks of included studies and save them in a Nifti
         foci_arr = illustrate_foci(exp_df.Coordinates.values)
         plot_and_save(
-            foci_arr, nii_path=project_path / f"Full/Volumes/{meta_name}_foci.nii"
+            foci_arr, nii_path=project_path / f"Full/Volumes/Foci/{meta_name}_foci.nii"
         )
 
     # ALE calculation
